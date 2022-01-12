@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/components-files/main.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>NTPC admin</title>
+</head>
+<body style="background-color: #e4e4e4;">
+    <div class="sidebar close" style=" background-color:rgb(255, 255, 255)">
+        <div class="logo-details">
+            <a href="/html/index.html"> <i><img src="/pictures/ntpc.svg" width="70px"></i></a>
+             <span class="logo_name">NTPC admin</span>
+           </div>
+        <ul class="nav-links">
+
+                <li class="home-content">
+                  <i class='bx bx-menu' ></i>
+                  <span class="text"></span>
+                </li>
+              
+          <li>
+            <a href="#">
+              <i class='bx bx-grid-alt' ></i>
+              <span class="link_name">Product Cards</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/components-files/product-cards.html">Product Cards</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-collection' ></i>
+                <span class="link_name">Elements</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Elements</a></li>
+              <li><a href="/components-files/list.html">List Groups</a></li>
+              <li><a href="/components-files/navigation.html">Navigation Menu</a></li>
+              <li><a href="/components-files/forms.html">Forms</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-book-alt' ></i>
+                <span class="link_name">Components</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Components</a></li>
+              
+              <li><a href="/components-files/carousel.html">Carousels</a></li>
+              <li><a href="/components-files/calendar.html">Calendar</a></li>
+              <li><a href="/components-files/location.html">Location Services</a></li>
+
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-pie-chart-alt-2' ></i>
+              <span class="link_name">Analytics Progress Bars</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/components-files/analytics.html">Analytics</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/components-files/front.html">
+              <i class='bx bx-line-chart' ></i>
+              <span class="link_name">Chart</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/components-files/front.html">Chart</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-plug' ></i>
+                <span class="link_name">Widgets</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Widgets</a></li>
+              <li><a href="#">UI Face</a></li>
+              <li><a href="#">Pigments</a></li>
+              <li><a href="#">Box Icons</a></li>
+            </ul>
+          </li>
+          
+         
+          <li>
+            <a href="#">
+              <i class='bx bx-cog' ></i>
+              <span class="link_name">Setting</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Setting</a></li>
+            </ul>
+          </li>
+          <li>
+         <!-- <div class="profile-details">
+          <div class="profile-content">
+            <img src="image/profile.jpg" alt="profileImg">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Prem Shahi</div>
+            <div class="job">Web Desginer</div>
+          </div>
+          <i class='bx bx-log-out' ></i>
+        </div>  -->
+      </li>
+    </ul>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="main-content">
+        <header>
+               <!-- <div class="search-wrapper">
+                    <span class="las la-search"></span>
+                    <input type="search" placeholder="Search here" />
+                </div>
+                <div class="user-wrapper">
+                    <img src="/pictures/user.jpeg" width="30px" height="30px" alt="">
+                    <div>
+                        <h4 style="color: white;">Sarthak Nawaria</h4>
+                        <small>
+                            Hi , Sarthak
+                        </small>
+                    </div>
+                </div> -->
+                <form class="d-flex" style="margin-top: -5px; width: 40vw;">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="margin: 5px;">Search</button>
+                  </form>
+               
+                <div class="user-wrapper">
+                    
+                <div class="app-header-right">
+                    
+                    <div class="header-btn-lg pr-0">
+                        
+                        <div class="widget-content p-0">
+                            
+                            <div class="widget-content-wrapper">
+                               
+                                
+                                <div class="widget-content-left">
+                                  
+                                    
+                                    <div class="btn-group">
+                                        <img width="42" class="rounded-circle" src="/components-files/assets/images/avatars/3.jpg" alt="" style="margin-right: 0px;">
+                                            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn" style="color: #fff;">
+                                                 <i class="fa fa-angle-down ml-2 opacity-8" style="margin-top: 75%;"></i>
+                                            </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right" style="border-radius: 25px 0px 25px 25px;">
+                                            <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                            <button type="button" tabindex="0" class="dropdown-item">Settings</button>
+                                            <h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                            <button type="button" tabindex="0" class="dropdown-item">Actions</button>
+                                            <div tabindex="-1" class="dropdown-divider"></div>
+                                            <button type="button" tabindex="0" class="dropdown-item">Dividers</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content-left  ml-3 header-user-info" >
+                                    <div class="widget-heading" style="color: #fff;">
+                                       Sarthak Nawaria
+                                    </div>
+                                    <div class="widget-subheading" style="color: #fff;">
+                                         IT intern
+                                    </div>
+                                </div>
+                                <div class="widget-content-right header-user-info ml-3">
+                                    <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
+                                        <i class="fa text-white fa-calendar pr-1 pl-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                </div>
+
+
+
+             
+
+        </header>
+
+
+
+
+        
+        <main>Dashboard
+            <br>
+            <br>
+
+            <!-- <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1> 54 </h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <span class="las la-users" ></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1> 79 </h1>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <span class="las la-clipboard"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>Orders</span>
+                    </div>
+                    <div>
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1> $9k</h1>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <span class="las la-wallet"></span>
+                    </div>
+                </div>
+
+            </div> -->
+            <div class="row">
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-3 widget-content">
+                        <div class="widget-content-outer">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="widget-heading">Total Orders</div>
+                                    <div class="widget-subheading">Last year expenses</div>
+                                </div>
+                                <div class="widget-content-right">
+                                    <div class="widget-numbers text-success">1896</div>
+                                </div>
+                            </div>
+                            <div class="widget-progress-wrapper">
+                                <div class="progress-bar-xs progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                                </div>
+                                <div class="progress-sub-label">
+                                    <div class="sub-label-left">Growth</div>
+                                    <div class="sub-label-right">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-3 widget-content">
+                        <div class="widget-content-outer">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="widget-heading">Clients</div>
+                                    <div class="widget-subheading">Total Clients Profit</div>
+                                </div>
+                                <div class="widget-content-right">
+                                    <div class="widget-numbers text-primary">$12.6k</div>
+                                </div>
+                            </div>
+                            <div class="widget-progress-wrapper">
+                                <div class="progress-bar-lg progress-bar-animated progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100" style="width: 47%;"></div>
+                                </div>
+                                <div class="progress-sub-label">
+                                    <div class="sub-label-left">Retention</div>
+                                    <div class="sub-label-right">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-3 widget-content">
+                        <div class="widget-content-outer">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="widget-heading">Followers</div>
+                                    <div class="widget-subheading">People Interested</div>
+                                </div>
+                                <div class="widget-content-right">
+                                    <div class="widget-numbers text-danger">45,9%</div>
+                                </div>
+                            </div>
+                            <div class="widget-progress-wrapper">
+                                <div class="progress-bar-sm progress-bar-animated-alt progress">
+                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                                </div>
+                                <div class="progress-sub-label">
+                                    <div class="sub-label-left">Social Media Progress</div>
+                                    <div class="sub-label-right">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div class="recent-grid">
+    <div class="projects">
+        <div class="card">
+            <div class="card-header">
+            <h3 style="font-weight: bold;color: rgb(31, 96, 218);margin-top: 10px;">Recent Projects</h3>
+            <button>See all <span class="las la-arrow-right"></span></button>
+            </div>
+            <div class="card-body">
+                
+              <div class="table-responsive">
+
+                <table width="100%">
+                    <thead>
+                        <tr>
+                           
+                            <td>Project Title</td>
+                           <td>Department</td>
+                           <td>Status</td>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>UI/UX Design</td>
+                            <td>UI Team</td>
+                            <td>
+                                <span class="status purple"></span>
+                                Review
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Frontend</td>
+                            <td>
+                                <span class="status pink"></span>
+                                In Progress
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Ushop app</td>
+                            <td>Mobile Team</td>
+                            <td>
+                                <span class="status orange"></span>
+                                Pending
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>UI/UX Design</td>
+                            <td>UI Team</td>
+                            <td>
+                                <span class="status purple"></span>
+                                Review
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Frontend</td>
+                            <td>
+                                <span class="status pink"></span>
+                                In Progress
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Ushop app</td>
+                            <td>Mobile Team</td>
+                            <td>
+                                <span class="status orange"></span>
+                                Pending
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>UI/UX Design</td>
+                            <td>UI Team</td>
+                            <td>
+                                <span class="status purple"></span>
+                                Review
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Frontend</td>
+                            <td>
+                                <span class="status pink"></span>
+                                In Progress
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Ushop app</td>
+                            <td>Mobile Team</td>
+                            <td>
+                                <span class="status orange"></span>
+                                Pending
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>UI/UX Design</td>
+                            <td>UI Team</td>
+                            <td>
+                                <span class="status purple"></span>Review
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>Frontend</td>
+                            <td>
+                                <span class="status pink"></span>
+                                In Progress
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Ushop app</td>
+                            <td>Mobile Team</td>
+                            <td>
+                                <span class="status orange"></span>
+                                Pending
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="customers">
+        <div class="card">
+            <div class="card-header">
+            <h3 style="font-weight: bold;color: rgb(31, 96, 218);margin-top: 10px;">New Costumers</h3>
+            <button>See all <span class="las la-arrow-right"></span></button>
+            </div>   
+            <div class="card-body">
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user2.jpg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Elon Musk </h4>
+                        <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user2.jpg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Bill Gates</h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user.jpeg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Larry Page</h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user.jpeg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Steve Jobs</h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user2.jpg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Elon Musk </h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user.jpeg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Elon Musk </h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user2.jpg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Elon Musk </h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user2.jpg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Elon Musk </h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            <div class="customer">
+                <div class="info">
+                    <img src="/pictures/user2.jpg"width="40px"height="40px"alt="">
+                    <div>
+                        <h4 style="margin-top: 20px; ">Elon Musk </h4>
+                                                <p style="font-size:12px; color: black;font-weight: bolder;padding: 0px;margin-top:-5px ;">(Senior Developer)</p>
+
+                    </div>
+                </div>
+                <div class="contact">
+                    <a href="#"><span class="las la-user-circle"></span></a>
+                    <a href="#"><span class="las la-comment"></span></a>
+                    <a href="#"><span class="las la-phone"></span></a>
+
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+
+
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+    
+    <!-- <script>let arrow = document.querySelectorAll(".arrow");for (var i = 0; i < arrow.length; i++) {arrow[i].addEventListener("click", (e)=>{let arrowParent = e.target.parentElement.parentElement;Parent.classList.toggle("showMenu");});}let sidebar = document.querySelector(".sidebar");let sidebarBtn = document.querySelector(".bx-menu");console.log(sidebarBtn);sidebarBtn.addEventListener("click", ()=>{sidebar.classList.toggle("close");}); </script> -->
+    
+    <script>
+        let arrow = document.querySelectorAll(".arrow");
+for (var i = 0; i < arrow.length; i++) {
+  arrow[i].addEventListener("click", (e)=>{
+ let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+ arrowParent.classList.toggle("showMenu");
+  });
+}
+
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+  sidebar.classList.toggle("close");
+});
+
+    </script>
+    
+    
+    
+    <script src="/components-files/assets/scripts/main.js"></script>
+
+   
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-----  <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+             <h2>
+            <span class="">NTPC</span>
+            </h2> 
+            
+            <h2>
+                <span >
+                    <img class="NTPC" src="/pictures/ntpc.svg" 
+                    style=" 
+                    position: relative;
+                    height: 100px;
+                    padding: 1rem 0rem 1rem 2rem;
+                    color: rgb(255, 255, 255);
+                    display: inline-block;
+                    padding-right:1rem;" >
+                </span>
+            </h2>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href=""><span class="las la-home"></span><span>Dashboard</span>
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a href=""><span class="las la-users"></span><span>Customers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-project-diagram"></span><span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Orders</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-shopping-bag"></span><span>Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="las la-receipt"></span><span>Accounts</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Tasks</span>
+                    </a>
+                    <div class="accordion">
+                        <button type="button" class="accordion_ _button"></button>
+                    </div>
+                </li>
+                
+                   
+                
+                
+            </ul>
+        </div>
+    </div>
+-->

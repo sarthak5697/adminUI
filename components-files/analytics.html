@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/components-files/main.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>NTPC admin</title>
+</head>
+<body style="background-color: #e4e4e4;">
+    <div class="sidebar close" style=" background-color:rgb(255, 255, 255)">
+        <div class="logo-details">
+            <a href="/html/index.html"> <i><img src="/pictures/ntpc.svg" width="70px"></i></a>
+             <span class="logo_name">NTPC admin</span>
+           </div>
+        <ul class="nav-links">
+
+                <li class="home-content">
+                  <i class='bx bx-menu' ></i>
+                  <span class="text"></span>
+                </li>
+              
+          <li>
+            <a href="#">
+              <i class='bx bx-grid-alt' ></i>
+              <span class="link_name">Product Cards</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/components-files/product-cards.html">Product Cards</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-collection' ></i>
+                <span class="link_name">Elements</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Elements</a></li>
+              <li><a href="/components-files/list.html">List Groups</a></li>
+              <li><a href="/components-files/navigation.html">Navigation Menu</a></li>
+              <li><a href="/components-files/forms.html">Forms</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-book-alt' ></i>
+                <span class="link_name">Components</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Components</a></li>
+              
+              <li><a href="/components-files/carousel.html">Carousels</a></li>
+              <li><a href="/components-files/calendar.html">Calendar</a></li>
+              <li><a href="/components-files/location.html">Location Services</a></li>
+
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-pie-chart-alt-2' ></i>
+              <span class="link_name">Analytics Progress Bars</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/components-files/analytics.html">Analytics</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/components-files/front.html">
+              <i class='bx bx-line-chart' ></i>
+              <span class="link_name">Chart</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="/components-files/front.html">Chart</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bx-plug' ></i>
+                <span class="link_name">Widgets</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Widgets</a></li>
+              <li><a href="#">UI Face</a></li>
+              <li><a href="#">Pigments</a></li>
+              <li><a href="#">Box Icons</a></li>
+            </ul>
+          </li>
+          
+         
+          <li>
+            <a href="#">
+              <i class='bx bx-cog' ></i>
+              <span class="link_name">Setting</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Setting</a></li>
+            </ul>
+          </li>
+          <li>
+         <!-- <div class="profile-details">
+          <div class="profile-content">
+            <img src="image/profile.jpg" alt="profileImg">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Prem Shahi</div>
+            <div class="job">Web Desginer</div>
+          </div>
+          <i class='bx bx-log-out' ></i>
+        </div>  -->
+      </li>
+    </ul>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="main-content">
+        <header>
+            <!-- <div class="search-wrapper">
+                 <span class="las la-search"></span>
+                 <input type="search" placeholder="Search here" />
+             </div>
+             <div class="user-wrapper">
+                 <img src="/pictures/user.jpeg" width="30px" height="30px" alt="">
+                 <div>
+                     <h4 style="color: white;">Sarthak Nawaria</h4>
+                     <small>
+                         Hi , Sarthak
+                     </small>
+                 </div>
+             </div> -->
+             <form class="d-flex" style="margin-top: -5px; width: 40vw;">
+                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn btn-outline-success" type="submit" style="margin: 5px;">Search</button>
+               </form>
+            
+             <div class="user-wrapper">
+                 
+             <div class="app-header-right">
+                 
+                 <div class="header-btn-lg pr-0">
+                     
+                     <div class="widget-content p-0">
+                         
+                         <div class="widget-content-wrapper">
+                            
+                             
+                             <div class="widget-content-left">
+                               
+                                 
+                                 <div class="btn-group">
+                                     <img width="42" class="rounded-circle" src="/components-files/assets/images/avatars/3.jpg" alt="" style="margin-right: 0px;">
+                                         <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn" style="color: #fff;">
+                                              <i class="fa fa-angle-down ml-2 opacity-8" style="margin-top: 75%;"></i>
+                                         </a>
+                                     <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right" style="border-radius: 25px 0px 25px 25px;">
+                                         <button type="button" tabindex="0" class="dropdown-item">User Account</button>
+                                         <button type="button" tabindex="0" class="dropdown-item">Settings</button>
+                                         <h6 tabindex="-1" class="dropdown-header">Header</h6>
+                                         <button type="button" tabindex="0" class="dropdown-item">Actions</button>
+                                         <div tabindex="-1" class="dropdown-divider"></div>
+                                         <button type="button" tabindex="0" class="dropdown-item">Dividers</button>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="widget-content-left  ml-3 header-user-info" >
+                                 <div class="widget-heading" style="color: #fff;">
+                                    Sarthak Nawaria
+                                 </div>
+                                 <div class="widget-subheading" style="color: #fff;">
+                                      IT intern
+                                 </div>
+                             </div>
+                             <div class="widget-content-right header-user-info ml-3">
+                                 <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
+                                     <i class="fa text-white fa-calendar pr-1 pl-1"></i>
+                                 </button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>        
+             </div>
+             </div>
+
+
+
+          
+
+     </header>
+
+        <main>
+                    <div class="app-main__inner">
+                        <div class="app-page-title">
+                            <div class="page-title-wrapper">
+                                <div class="page-title-heading">
+                                    <div class="page-title-icon">
+                                        <i class="pe-7s-filter icon-gradient bg-grow-early">
+                                        </i>
+                                    </div>
+                                    <div>Analysis section
+                                        <div class="page-title-subheading">You can use the progress bars on their own or in combination with other widgets.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page-title-actions">
+                                    <button type="button" data-toggle="tooltip" title="Example Tooltip" data-placement="bottom" class="btn-shadow mr-3 btn btn-dark">
+                                        <i class="fa fa-star"></i>
+                                    </button>
+                                    <div class="d-inline-block dropdown">
+                                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-shadow dropdown-toggle btn btn-info">
+                                            <span class="btn-icon-wrapper pr-2 opacity-7">
+                                                <i class="fa fa-business-time fa-w-20"></i>
+                                            </span>
+                                            Buttons
+                                        </button>
+                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
+                                            <ul class="nav flex-column">
+                                                <li class="nav-item">
+                                                    <a href="javascript:void(0);" class="nav-link">
+                                                        <i class="nav-link-icon lnr-inbox"></i>
+                                                        <span>
+                                                            Inbox
+                                                        </span>
+                                                        <div class="ml-auto badge badge-pill badge-secondary">86</div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="javascript:void(0);" class="nav-link">
+                                                        <i class="nav-link-icon lnr-book"></i>
+                                                        <span>
+                                                            Book
+                                                        </span>
+                                                        <div class="ml-auto badge badge-pill badge-danger">5</div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="javascript:void(0);" class="nav-link">
+                                                        <i class="nav-link-icon lnr-picture"></i>
+                                                        <span>
+                                                            Picture
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a disabled href="javascript:void(0);" class="nav-link disabled">
+                                                        <i class="nav-link-icon lnr-file-empty"></i>
+                                                        <span>
+                                                            File Disabled
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>    </div>
+                        </div>            <div class="row">
+                            <div class="col-md-6">
+                               
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress bar labels</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">1/2</div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">You're almost there!</div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">You did it!</div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Wow!</div>
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Cool</div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">!!</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress bar max</h5>
+                                        <div class="text-center">1 of 5</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5" style="width: 20%;"></div>
+                                        </div>
+                                        <div class="text-center">50 of 135</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="135" style="width: 37.037%;"></div>
+                                        </div>
+                                        <div class="text-center">75 of 111</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="111" style="width: 67.5676%;"></div>
+                                        </div>
+                                        <div class="text-center">463 of 500</div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="463" aria-valuemin="0" aria-valuemax="500" style="width: 92.6%;"></div>
+                                        </div>
+                                        <div class="text-center">Various (40) of 55</div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="55" style="width: 9.09091%;">5</div>
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="55" style="width: 27.2727%;">15</div>
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="55" style="width: 18.1818%;">10</div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            <div class="col-md-6">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress color</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card mb-3 card">
+                                   
+                                </div>
+                                <div class="main-card mb-3 card">
+                                    <div class="card-body"><h5 class="card-title">Progress animated</h5>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-info progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+                                        <div class="mb-3 progress">
+                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+                                            <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                            <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner">
+                                <div class="app-footer-left">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                Footer Link 1
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                Footer Link 2
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="app-footer-right">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                Footer Link 3
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <div class="badge badge-success mr-1 ml-0">
+                                                    <small>NEW</small>
+                                                </div>
+                                                Footer Link 4
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                 </div>
+
+
+
+
+        </main>
+   
+
+
+
+
+
+
+
+
+    
+    <script>let arrow = document.querySelectorAll(".arrow");for (var i = 0; i < arrow.length; i++) {arrow[i].addEventListener("click", (e)=>{let arrowParent = e.target.parentElement.parentElement;Parent.classList.toggle("showMenu");});}let sidebar = document.querySelector(".sidebar");let sidebarBtn = document.querySelector(".bx-menu");console.log(sidebarBtn);sidebarBtn.addEventListener("click", ()=>{sidebar.classList.toggle("close");}); </script>
+    <script src="/components-files/assets/scripts/main.js"></script>
+
+   
+    
+</body>
+</html>
