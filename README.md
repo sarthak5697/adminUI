@@ -20,7 +20,7 @@ LANGUAGES USED :  HTML5 CSS3 Javascript CHART.js Bootstrap and more             
 
 ![HOME!](home.jpg)
 ![FORM!](form.jpg)
-![PRODUCT!](product.jpg)
+![IMAGE](product.jpg)
 
 
 
