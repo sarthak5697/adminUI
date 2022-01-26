@@ -1,4 +1,4 @@
-#ADMIN USER INTERFACE FOR TRAINING 
+# ADMIN USER INTERFACE FOR TRAINING 
 
 This is only template and the front end part only does not have backend integration . 
 1) It has different categories like a)Product Cards
@@ -13,7 +13,7 @@ This is only template and the front end part only does not have backend integrat
 LANGUAGES USED :  HTML5 CSS3 Javascript CHART.js Bootstrap and more                                                                                        CODED on VISUAL STUDIO CODE
 
 ![HOME!](home.jpg)
-![PRODUCT!](product.jpg)
+![PRODUCT!](product .jpg)
 ![FORM!](form.jpg)
 
 
