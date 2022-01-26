@@ -5,7 +5,8 @@
 
 
 ## This is only template and the front end part only does not have backend integration . 
-## 1) It has different categories like a)Product Cards
+## 1) It has different categories like 
+                                    a)Product Cards
                                     b)Form Tab
                                     c)Carousel 
                                     d)Location tab 
@@ -19,7 +20,7 @@ LANGUAGES USED :  HTML5 CSS3 Javascript CHART.js Bootstrap and more             
 
 ![HOME!](home.jpg)
 ![FORM!](form.jpg)
-![HOME!](product.jpg)
+![PRODUCT!](product.jpg)
 
 
 
