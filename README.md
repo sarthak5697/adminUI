@@ -18,10 +18,7 @@
                                  
 LANGUAGES USED :  HTML5 CSS3 Javascript CHART.js Bootstrap and more                                                                                        CODED on VISUAL STUDIO CODE
 
-![HOME!](home.jpg)
-![FORM!](form.jpg)
-![IMAGE](product.jpg)
-
+![HOME!](home.jpg)![FORM!](form.jpg)![IMAGE!](product.jpg)
 
 
 
