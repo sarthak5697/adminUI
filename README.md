@@ -1,4 +1,4 @@
-ADMIN USER INTERFACE FOR TRAINING 
+#ADMIN USER INTERFACE FOR TRAINING 
 
 This is only template and the front end part only does not have backend integration . 
 1) It has different categories like a)Product Cards
